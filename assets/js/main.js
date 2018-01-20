@@ -57,9 +57,8 @@
   });
 })(jQuery); // End of use strict
 
-/**
- * Listen to scroll to change header opacity class
- */
+
+//  Listen to scroll to change header opacity class
 function checkScroll() {
   var startY = $(".navbar").height() * 2; //The point where the navbar changes in px
 
