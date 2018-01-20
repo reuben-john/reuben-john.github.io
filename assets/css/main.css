@@ -46,7 +46,8 @@ footer a {
 .media {
   margin: 5em 0;
 } 
-
+/* 
+.media a,
 .media img {
   max-width: 50%;
-}
+} */
