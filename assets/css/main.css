@@ -4,7 +4,6 @@ body {
 header {
   padding: 154px 0 100px;
   background:rgb(130, 20, 255);
-  /* color: white; */
 }
 
 @media (min-width: 992px) {
@@ -22,13 +21,9 @@ h1 {
   font-size: 3em;
 }
 
-.bg-purple{
-  background: rgb(130, 20, 255);
-}
-.bg-dark-purple {
+footer {
   background: rgb(53, 0, 113);
 }
-
 .navbar-brand {
   font-size: 1.5em;
 }
