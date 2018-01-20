@@ -28,6 +28,7 @@ footer {
 }
 footer a {
   color: rgb(255, 221, 112);
+  margin-left: 3em;
 }
 
 .navbar-brand {
