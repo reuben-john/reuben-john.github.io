@@ -3,7 +3,7 @@ body {
 }
 header {
   padding: 154px 0 100px;
-  background: #65349c;
+  background:rgb(130, 20, 255);
   /* color: white; */
 }
 
@@ -23,5 +23,20 @@ h1 {
 }
 
 .bg-purple{
-  background: #65349c;
+  background: rgb(130, 20, 255);
+}
+.bg-dark-purple {
+  background: rgb(53, 0, 113);
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.navbar {
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: rgba(53, 0, 113, 0.5);
 }
