@@ -1,5 +1,7 @@
 header {
   padding: 154px 0 100px;
+  background: #65349c;
+  /* color: white; */
 }
 
 @media (min-width: 992px) {
@@ -10,4 +12,12 @@ header {
 
 section {
   padding: 150px 0;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.bg-purple{
+  background: #65349c;
 }
