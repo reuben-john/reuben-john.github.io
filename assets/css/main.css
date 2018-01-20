@@ -1,6 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+
 header {
   padding: 154px 0 100px;
   background:rgb(130, 20, 255);
@@ -39,3 +41,7 @@ footer a {
 .navbar.scrolled {
   background: rgba(53, 0, 113, 0.5);
 }
+
+.media {
+  margin: 5em 0;
+} 
