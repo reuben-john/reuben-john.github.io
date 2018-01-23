@@ -42,7 +42,7 @@
     <header>
         <div class="container text-center text-light">
             <h1>Hi, I'm Reuben.</h1>
-            <p class="lead">This is my portfolio.</p>
+            <p class="lead">Front End Developer</p>
         </div>
     </header>
 
@@ -54,12 +54,12 @@
                     <div class="media d-block d-md-flex mt-4">
                         <img class="d-flex mb-3 mx-auto media-image z-depth-1 my-3 rounded-circle" src="./assets/images/reuben-john.jpg" alt="Generic placeholder image">
                         <div class="media-body text-center text-md-left ml-md-3 ml-0">
-                            <p class="lead">I'm awesome! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur neque
-                                fugit consequatur totam quaerat nobis accusamus odio inventore debitis, alias ab perspiciatis dolore
-                                nesciunt commodi, eaque illo obcaecati hic!</p>
+                            <p class="lead">I'm awesome! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur
+                                neque fugit consequatur totam quaerat nobis accusamus odio inventore debitis, alias ab perspiciatis
+                                dolore nesciunt commodi, eaque illo obcaecati hic!</p>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
     </section>
@@ -97,8 +97,39 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Contact me</h2>
-                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum numquam dolorem exercitationem vel
-                        in autem aut delectus libero quasi sed quas ipsam possimus obcaecati, eum cum et! Cum, nesciunt non!</p>
+                    <form name="contact" netlify>
+                        <fieldset class="comment-form">
+
+                            <label>
+                                Name
+                                <input type="text" name="name" placeholder="Full name" required>
+                            </label>
+
+                            <label>
+                                Email
+                                <input type="email" name="email" placeholder="Email address" required>
+                            </label>
+
+                            <label>
+                                Your Message
+                                <textarea name="message" placeholder="Your Message"></textarea>
+                            </label>
+
+                        </fieldset>
+
+                        <input class="btn btn-default" type="submit" name="submit" value="Send Message">
+
+                    </form>
+
+                    <p class="lead">You can also find me at one of the following places:</p>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/reuben-john/">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/reuben-koppenheffer-73942a151/">Linkedin</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
