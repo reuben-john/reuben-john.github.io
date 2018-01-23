@@ -54,3 +54,12 @@ footer a {
 .navbar.scrolled {
   background: rgba(53, 0, 113, 0.5);
 }
+
+.btn-primary {
+  background: rgb(53, 0, 113);
+  border: 1px solid rgb(130, 20, 255);
+}
+.btn-primary:hover {
+  background: rgb(130, 20, 255);
+  border: 1px solid rgb(53, 0, 113);
+}

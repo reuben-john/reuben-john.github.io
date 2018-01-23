@@ -98,26 +98,25 @@
                 <div class="col-lg-8 mx-auto">
                     <h2>Contact me</h2>
                     <form name="contact" netlify>
-                        <fieldset class="comment-form">
+                        <fieldset class="form-row">
+                            <div class="form-group col-md-10">
+                                    <label for="name">Name</label>
+                                    <input class="form-control" type="text" name="name" placeholder="Full name" required>
+                            </div>
 
-                            <label>
-                                Name
-                                <input type="text" name="name" placeholder="Full name" required>
-                            </label>
+                            <div class="form-group col-md-10">
+                                    <label for="email">Email</label>
+                                    <input class="form-control" type="email" name="email" placeholder="Email address" required>
+                            </div>
 
-                            <label>
-                                Email
-                                <input type="email" name="email" placeholder="Email address" required>
-                            </label>
-
-                            <label>
-                                Your Message
-                                <textarea name="message" placeholder="Your Message"></textarea>
-                            </label>
-
+                            <div class="form-group col-md-10">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" name="message" placeholder="Your Message"></textarea>
+                            </div>
                         </fieldset>
-
-                        <input class="btn btn-default" type="submit" name="submit" value="Send Message">
+                        <div class="text-center col-sm-10">
+                            <button type="submit" class="btn btn-primary mb-4">Send Message</button>
+                        </div>
 
                     </form>
 
