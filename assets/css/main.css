@@ -63,3 +63,8 @@ footer a {
   background: rgb(130, 20, 255);
   border: 1px solid rgb(53, 0, 113);
 }
+
+#projects ul {
+  list-style: none;
+  padding-left: 0;
+}
